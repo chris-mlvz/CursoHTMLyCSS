@@ -1,0 +1,44 @@
+html
+{
+    font-size: 6.25%;
+    font-family: 'Roboto', sans-serif;
+}
+.card
+{
+    width: 30%;
+    margin:0 auto;
+    font-size: 16rem;
+}
+.card__header
+{
+    background-color: #ff4400;
+    width: 30%;
+    min-width: 100rem;
+    margin:0 auto;
+    border-radius: 5rem;
+    padding: 0rem 10rem;
+    text-align: center;
+    position: relative;
+    top: 20rem;
+    border: black 3rem solid;
+}
+.card__body
+{
+    background-color:#ff8b01;
+    min-width: 150rem;
+    border-radius: 15rem;
+    padding: 20rem;
+    border: black 3rem solid;
+    text-align: left;
+    font-weight: bold;
+}
+.card__figure
+{
+    text-align:center;
+    margin:0 auto;
+}
+.card_image
+{
+    width:12em;
+    height:12em;
+} 
