@@ -9,9 +9,11 @@
 </head>
 <body>
     <main>
-        <div class="picture">
-            <img src="./imgs/large.jpg" alt="">
-        </div>
+        <picture>
+            <source media=(min-width:1300px) srcset="./imgs/large.jpg">
+            <source media=(min-width:1000px) srcset="./imgs/medium.jpg">
+            <img src="./imgs/small.jpg" alt="Es una imágen de ejemplo">
+        </picture>
     </main>
 </body>
 </html>
