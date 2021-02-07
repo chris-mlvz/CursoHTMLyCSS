@@ -1,8 +1,12 @@
-h1 
+html
 {
-    font-size: 30px;
+    font-size: 62.5%
 }
-p 
+h1
 {
-    font-size: 18px;
+    font-size: 3rem;
+}
+p
+{
+    font-size: 1.8rem;
 }
